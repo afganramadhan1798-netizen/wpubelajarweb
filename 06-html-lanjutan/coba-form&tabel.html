@@ -3,9 +3,40 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Coba form yang dibalut tabel</title>
 </head>
 <body>
-  
+  <h1>Coba form dibungkus tabel</h1>
+  <form>
+    <table cellpadding="5">
+      <tr>
+        <td><label for="nama"></label>Nama :</td>
+        <td><input type="text" name="nama" id="nama" autocomplete="off" ="Masukkan nama kamu" required></td>
+      </tr>
+      <tr>
+        <td><label for="email">email :</label></td>
+        <td><input type="email" name="email" id="email"></td>
+      </tr>
+      <tr>
+        <td><label for="password">password :</label></td>
+        <td><input type="password" name="password" id="password"></td>
+      </tr>
+      <tr>
+        <td><label for="number">kamu suka angka berapa?</label></td>
+        <td><input type="number" name="number" id="number"></td>
+      </tr>
+      <tr>
+        <td><label for="date">kamu lahir kapan?</label></td>
+        <td><input type="date" name="date" id="date"></td>
+      </tr>
+      <tr>
+       <td><label for="color"></label>kamu suka warna apa?</td>
+        <td><input type="color" name="color" id="color"></td>
+      </tr>
+      <tr>
+        <td><button type="reset">Kirim!</button></td>
+      </tr>
+    </table>
+  </form>
 </body>
 </html>
