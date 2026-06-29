@@ -3,9 +3,34 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Test lagi</title>
+  <title>Coba Background</title>
+  <style>
+
+    body {
+      background-color: maroon;
+      background-image: linear-gradient(pink,lightblue);
+      height: 100vh;
+    }
+    .kotak1 {
+      height: 200px;
+      width: 200px;
+      background-image: linear-gradient( purple,green, blue);
+    }
+    .kotak2 {
+      height: 200px;
+      width: 200px;
+      background-image: radial-gradient( purple,green, blue);
+    }
+    .kotak3 {
+      height: 200px;
+      width: 200px;
+      background-image: conic-gradient( purple,green, blue);
+    }
+  </style>
 </head>
 <body>
-  
+  <div class="kotak1"></div>
+  <div class="kotak2"></div>
+  <div class="kotak3"></div>
 </body>
 </html>
